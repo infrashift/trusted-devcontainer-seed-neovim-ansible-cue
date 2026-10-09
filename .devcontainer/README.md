@@ -7,7 +7,7 @@ Two things in one image, and the split is deliberate — see the header comment 
 
     template:  ghcr.io/infrashift/trusted-devcontainer-templates/ansible-cue   (features, digests)
     editor:    the neovim-go template's terminal stack (tmux, neovim), plus
-               ansible-tools (ansible-lint, installed userland with uv) and the lazyvim feature at 1.1.0 with extras=infrashift.cue,infrashift.ansible_lint
+               ansible-tools (ansible-lint, installed userland with uv) and the lazyvim feature at 1.2.2 with extras=infrashift.cue,infrashift.ansible_lint
 
 A `devcontainer.json` cannot *reference* a template at build time -- a template
 is applied, and what it produced is what is committed here. Every feature is
